@@ -19,7 +19,7 @@ export const WorkCard = ({ title, src, projectlink }) => {
                     </div>
                     <div className="flex-fill  text-end p-2 text-dark">
 
-                        <a href={projectlink} className='p-2 link' target='_blank'>  <FontAwesomeIcon icon={faArrowUpRightFromSquare} size='2x' /></a></div>
+                        <a href={projectlink} className='p-2 link' target='_blank' rel="noreferrer noopener">  <FontAwesomeIcon icon={faArrowUpRightFromSquare} size='2x' /></a></div>
                 </div>
             </div>
         </div>
