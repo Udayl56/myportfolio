@@ -1,0 +1,24 @@
+.link {
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+}
+
+.hv:hover {
+    border-bottom: 4px solid #B923E1;
+
+}
+
+
+
+
+
+.bg {
+    background: linear-gradient(276deg, #DA7C25 0.36%, #B923E1 102.06%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bg:hover {
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,85 @@
+.rubik {
+    font-family: "'Rubik', sans-serif"
+}
+
+.bg-name {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.thumbnail {
+    transition: 0.5s;
+}
+
+.thumbnail:hover {
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+    transform: scale(1.05);
+
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.bg-g {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+}
+
+.text-c {
+    color: rgb(171, 171, 171);
+}
+
+.text-cg {
+    background: linear-gradient(270deg, #DF8908 20%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hv-resume {
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.hv-resume:hover {
+    border-color: #B415FF;
+}
+
+.fadeIn {
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+
+.slideInFromLeft {
+    animation: slideInFromLeft 0.8s ease-in-out forwards;
+}
