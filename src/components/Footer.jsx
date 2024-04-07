@@ -11,24 +11,24 @@ export function Footer() {
                         <h4 className='bg-name text-center'> Follow Us  </h4>
                         <ul className="list-unstyled d-inline-flex ">
                             <li className="flex-fill d-flex align-items-center">
-                                <a target="_blank" href="https://www.linkedin.com/in/uday-ladhi-14a10b244/" className='p-2 link-light '><FontAwesomeIcon icon={faLinkedin} className=" p-2 " size="2x" /></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/uday-ladhi-14a10b244/" rel="noreferrer noopener" className='p-2 link-light '><FontAwesomeIcon icon={faLinkedin} className=" p-2 " size="2x" /></a>
                             </li>
                             <li className=" flex-fill d-flex align-items-center">
-                                <a target="_blank" href="https://medium.com/@udayladhi" className='p-2 link-light'><FontAwesomeIcon icon={faMedium} className=" p-2 " size="2x" /></a>
+                                <a target="_blank" href="https://medium.com/@udayladhi" rel="noreferrer noopener" className='p-2 link-light'><FontAwesomeIcon icon={faMedium} className=" p-2 " size="2x" /></a>
 
                             </li>
                             <li className=" flex-fill d-flex align-items-center">
-                                <a target="_blank" href="https://github.com/Udayl56" className='p-2 link-light'>
+                                <a target="_blank" href="https://github.com/Udayl56" rel="noreferrer noopener" className='p-2 link-light'>
                                     <FontAwesomeIcon icon={faGithub} className=" p-2 " size="2x" />
                                 </a>
 
                             </li>
                             <li className=" flex-fill d-flex align-items-center">
-                                <a target="_blank" href="https://twitter.com/udayladhi" className='p-2 link-light'>
+                                <a target="_blank" href="https://twitter.com/udayladhi" rel="noreferrer noopener" className='p-2 link-light'>
                                     <FontAwesomeIcon icon={faTwitter} className=" p-2 " size="2x" /></a>
                             </li>
                             <li className=" flex-fill d-flex align-items-center">
-                                <a target="_blank" href="https://forum.freecodecamp.org/u/udayl56/activity" className='p-2 link-light'>
+                                <a target="_blank" href="https://forum.freecodecamp.org/u/udayl56/activity" rel="noreferrer noopener" className='p-2 link-light'>
                                     <FontAwesomeIcon icon={faFreeCodeCamp} className=" p-2 " size="2x" /> </a>
                             </li>
                         </ul>
